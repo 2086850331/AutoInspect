@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>系统运行日志</title>
+    <style>
+        body {
+            font-family: Consolas, "Microsoft YaHei", monospace;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #00c8ff;
+        }
+
+        .module {
+            margin: 30px 0;
+            border: 1px solid #444;
+            border-radius: 6px;
+            background-color: #1e1e1e;
+        }
+
+            .module h2 {
+                background-color: #222;
+                padding: 10px;
+                margin: 0;
+                font-size: 18px;
+                color: #00ffa6;
+            }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border-bottom: 1px solid #333;
+            padding: 6px 10px;
+            text-align: left;
+        }
+
+        tr:hover {
+            background-color: #2b2b2b;
+        }
+
+        .time {
+            color: #aaa;
+            width: 160px;
+        }
+
+        .INFO {
+            width: 60px;
+            color: #ffcc00;
+        }
+
+        .ERROR {
+            width: 60px;
+            color: #ff6c6c;
+        }
+
+        .messageINFO {
+            color: #fff;
+        }
+
+        .messageERROR {
+            color: #ff6c6c;
+        }
+    </style>
+</head>
+<body>
+    <h1>系统运行日志面板</h1>
+
+    <div class="module" id="AlarmMonitoringSystem">
+        <h2>AlarmMonitoringSystem</h2>
+        <table><thead><tr><th>时间</th><th>等级</th><th>消息</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div class="module" id="CameraMultipleFormsPlaySystem_Nginx">
+        <h2>CameraMultipleFormsPlaySystem_Nginx</h2>
+        <table><thead><tr><th>时间</th><th>等级</th><th>消息</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div class="module" id="ElectricBoxAlarmSystem_TCP">
+        <h2>ElectricBoxAlarmSystem_TCP</h2>
+        <table><thead><tr><th>时间</th><th>等级</th><th>消息</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div class="module" id="SerialPortReader_Branch">
+        <h2>SerialPortReader_Branch</h2>
+        <table><thead><tr><th>时间</th><th>等级</th><th>消息</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div class="module" id="IIS">
+        <h2>IIS</h2>
+        <table><thead><tr><th>时间</th><th>等级</th><th>消息</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div class="module" id="SystemTask">
+        <h2>SystemTask</h2>
+        <table><thead><tr><th>时间</th><th>等级</th><th>消息</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div class="module" id="DiskEnvivronment">
+        <h2>DiskEnvivronment</h2>
+        <table><thead><tr><th>时间</th><th>等级</th><th>消息</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div class="module" id="Network">
+        <h2>Network</h2>
+        <table><thead><tr><th>时间</th><th>等级</th><th>消息</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div class="module" id="system">
+        <h2>system</h2>
+        <table><thead><tr><th>时间</th><th>等级</th><th>消息</th></tr></thead><tbody></tbody></table>
+    </div>
+</body>
+</html>
